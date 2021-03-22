@@ -2,6 +2,14 @@
 ## Overview
 The goal of this project is to use Apache Spark on Cloud Dataproc to run a simple facial recognition model on a few images using distributed computing. These images are stored in a Cloud Storage Bucket, and when processed, a new folder with the outputted images will be generated. This project was done as a demo of distributed computing for Noah Gift's Cloud Computing Course at Duke University. 
 
+Running through the procedure detailed below will attempt to detect faces on the images. An example is shown below:
+
+*Original Image*
+![](https://github.com/vprasad60/distributed_computing_dataproc/blob/main/original_images/imgs_classroom.jpg)
+
+*Processed Image*
+![](https://github.com/vprasad60/distributed_computing_dataproc/blob/main/output_images/out_classroom_output.jpg)
+
 Reference Qwiklab: [Distributed Image Processing in Cloud Dataproc](https://www.qwiklabs.com/focuses/5834?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=4914974)
 
 
