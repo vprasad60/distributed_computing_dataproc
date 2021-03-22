@@ -17,9 +17,13 @@ Reference Qwiklab: [Distributed Image Processing in Cloud Dataproc](https://www.
 ### Part 1: Create Development Machine in Compute Engine
 1. Go to **Compute Engine** in the GCP Console, selecting **VM Instances**, then select **Create**.
 2. Configure the fields below and leave the rest as default.
+   
     a. **Name**: devhost (or whatever you prefer)
+    
     b. **Series**: N1
+    
     c. **Machine Type**: 2 vCPUs (n1-standard-2 instance)
+    
     d. **Identity and API Access**: Allow full access to all Cloud APIs
     
 ### Part 2: Install Software
